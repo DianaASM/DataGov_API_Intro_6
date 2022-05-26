@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Microsoft.AspNetCore.JsonPatch/6.0.4": {
+      "Microsoft.AspNetCore.JsonPatch/6.0.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -15,10 +15,10 @@
           "lib/net6.0/Microsoft.AspNetCore.JsonPatch.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.4": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "6.0.4",
+          "Microsoft.AspNetCore.JsonPatch": "6.0.5",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
@@ -708,10 +708,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.JsonPatch/6.0.4": {
-      "sha512": "BDI7P53vCNqB35poKWUUeUZxr46/g/h6CyHYrU2byICC1/oGdX7iZ2naG3X8VeZcmdC1YBkbXb5LXLtutHSq1Q==",
+    "Microsoft.AspNetCore.JsonPatch/6.0.5": {
+      "sha512": "kxQR7xCm9pQxnM3UZBp45Z470LFa1VA0qG/hFKhpE5hOJKgLOu4zmxakoVqswptAnHuD6ghd7XGb7hm1s1D0lw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.jsonpatch/6.0.4",
+      "path": "microsoft.aspnetcore.jsonpatch/6.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -723,14 +723,14 @@
         "lib/net6.0/Microsoft.AspNetCore.JsonPatch.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.xml",
-        "microsoft.aspnetcore.jsonpatch.6.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.jsonpatch.6.0.5.nupkg.sha512",
         "microsoft.aspnetcore.jsonpatch.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.4": {
-      "sha512": "RQGy4kX3dkvcz0v84+sl6xmOYhpA3CFgylNiAPFxi36JLp4uU5SEvbbLo6u+d4tHbyGkaLe8RzKLJmnRdckZ9A==",
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.5": {
+      "sha512": "ord2AixR+h2xmv7LPAtifz5k4MHV0BVtzyp2UyB1+gILT+xw4usAvTWo0SX1ruBk3GK4kyhHa9cgQt0yafR2dQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.4",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -738,7 +738,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
-        "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.5.nupkg.sha512",
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
@@ -2104,7 +2104,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.4",
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.5",
       "Microsoft.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Abstractions >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.4",
@@ -2114,19 +2114,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usfstudent\\.nuget\\packages\\": {}
+    "C:\\Users\\Diana\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usfstudent\\Desktop\\DotNet6_Projects\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
+      "projectUniqueName": "C:\\Users\\Diana\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
       "projectName": "DataGov_API_Intro_6",
-      "projectPath": "C:\\Users\\usfstudent\\Desktop\\DotNet6_Projects\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
-      "packagesPath": "C:\\Users\\usfstudent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usfstudent\\Desktop\\DotNet6_Projects\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\obj\\",
+      "projectPath": "C:\\Users\\Diana\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
+      "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Diana\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\usfstudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2154,7 +2158,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
-            "version": "[6.0.4, )"
+            "version": "[6.0.5, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -2199,7 +2203,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
